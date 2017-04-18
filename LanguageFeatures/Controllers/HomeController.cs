@@ -19,7 +19,7 @@ namespace LanguageFeatures.Controllers
         {
             Product myProduct = new Product();
             myProduct.Name = "Каяк";
-
+            //chtck
             string productName = myProduct.Name;
             return View("Result", (object)String.Format("Product name: {0}", productName));
         }
